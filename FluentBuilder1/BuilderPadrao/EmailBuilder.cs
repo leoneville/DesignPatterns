@@ -14,24 +14,28 @@ namespace BuilderPadrao
             _email = new Email();
         }
 
-        public void To(string destino)
+        public EmailBuilder To(string destino)
         {
             _email.To = destino;
+            return this;
         }
 
-        public void From(string origem)
+        public EmailBuilder From(string origem)
         {
             _email.From = origem;
+            return this;
         }
 
-        public void Subject(string titulo)
+        public EmailBuilder Subject(string titulo)
         {
             _email.Subject = titulo;
+            return this;
         }
 
-        public void Body(string conteudo)
+        public EmailBuilder Body(string conteudo)
         {
             _email.Body = conteudo;
+            return this;
         }
 
         public Email CriaEmail()
