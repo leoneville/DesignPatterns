@@ -5,9 +5,11 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton_SingleThread", "Singleton_SingleThread\Singleton_SingleThread.csproj", "{ED12A7E7-FFA5-44B6-8AEE-07204002207E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton_MultiThread", "Single_MultiThread\Singleton_MultiThread.csproj", "{506BD813-B37A-423D-AF2E-0B8DF4495271}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton_Estatico", "Singleton_Estatico\Singleton_Estatico.csproj", "{5E0A4349-C4AF-4391-93EE-1FCE9727A744}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton_Estatico", "Singleton_Estatico\Singleton_Estatico.csproj", "{5E0A4349-C4AF-4391-93EE-1FCE9727A744}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton_EagerLoading", "Singleton_EagerLoading\Singleton_EagerLoading.csproj", "{A632464F-ADDA-4C09-8C77-37F3E1C6F3F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton_LazyLoading", "Singleton_LazyLoading\Singleton_LazyLoading.csproj", "{5020224C-F576-42D4-93EE-EE5B155DCDFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +21,18 @@ Global
 		{ED12A7E7-FFA5-44B6-8AEE-07204002207E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED12A7E7-FFA5-44B6-8AEE-07204002207E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED12A7E7-FFA5-44B6-8AEE-07204002207E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{506BD813-B37A-423D-AF2E-0B8DF4495271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{506BD813-B37A-423D-AF2E-0B8DF4495271}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{506BD813-B37A-423D-AF2E-0B8DF4495271}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{506BD813-B37A-423D-AF2E-0B8DF4495271}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5E0A4349-C4AF-4391-93EE-1FCE9727A744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5E0A4349-C4AF-4391-93EE-1FCE9727A744}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E0A4349-C4AF-4391-93EE-1FCE9727A744}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E0A4349-C4AF-4391-93EE-1FCE9727A744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A632464F-ADDA-4C09-8C77-37F3E1C6F3F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A632464F-ADDA-4C09-8C77-37F3E1C6F3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A632464F-ADDA-4C09-8C77-37F3E1C6F3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A632464F-ADDA-4C09-8C77-37F3E1C6F3F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5020224C-F576-42D4-93EE-EE5B155DCDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5020224C-F576-42D4-93EE-EE5B155DCDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5020224C-F576-42D4-93EE-EE5B155DCDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5020224C-F576-42D4-93EE-EE5B155DCDFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
